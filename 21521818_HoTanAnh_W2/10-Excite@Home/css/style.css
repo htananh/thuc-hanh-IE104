@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-image: url('../images/background.gif');
+    background-size: contain;
+    color: #fff  ;
+}
+.container {
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    height: 80%;
+    left: 20%;
+    top: 10%;
+  }
+.red{
+    height: 30px;
+    background-color: red;
+  }
+.banner img{
+    width: 100%;
+  }
+.text-red{
+    color: red;
+}
+.footer{
+    margin-top: 50px;
+    opacity: 0.6;
+}
