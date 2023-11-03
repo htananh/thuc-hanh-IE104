@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header img{
+    width: 100%;
+    position: relative;
+}
+.header h1{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    color: white;
+    text-shadow: 12px 12px 14px rgb(163, 37, 37);
+}
+.nav_left {
+    position: relative;
+}
+.nav_left img{
+    float: left;
+    
+}
+.content_full{
+    float: right;
+    width: 82.5%;
+}
+.rectangle {
+    width: 45px;
+    height: 22px;
+   border: 1px dotted #000;
+    transform: rotate(-28deg);
+    position: absolute;
+    top:70px;
+}
+

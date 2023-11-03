@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header img{
+    width: 100%;
+    
+}
+.header{
+    position: relative;
+}
+.header h1{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    color: white;
+    text-shadow: 12px 12px 14px rgb(163, 37, 37);
+}
+.nav_left {
+    position: relative;
+    float: left;
+}
+.nen-hoa-muc-luc {
+    position: absolute;
+    bottom: 0;
+}
+.menu{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.menu ul{
+    padding: 15px;
+    
+    
+    
+    
+}
+.menu ul li{
+    margin-bottom: 15px;
+    margin-top: 5px;
+   z-index: 100;
+    border-radius: 15px;
+}
+li:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%; /* Điều chỉnh vị trí để nằm chính giữa thẻ li */
+    transform: translateY(-50%);
+    width: 100px; /* Chiều rộng của boder (hoặc nếu bạn muốn là dấu chấm) */
+    height: 100%;
+    border-left: 1px solid #b80e0e; /* Màu sắc và kiểu của boder */
+    background-color: #ffffff;
+    margin-bottom: 15px;
+  }
+.content_full{
+    float: right;
+    width: 82.5%;
+}
+
+
+
+
+
+.mucluc img{
+    width: 260px;
+    height: 540px;
+}

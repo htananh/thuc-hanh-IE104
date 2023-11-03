@@ -22,7 +22,7 @@ h1{
 table{
    
     margin-top: 20px;
-    background-color: beige;
+    background-color: rgb(243, 243, 193);
     border: 2px solid blue;
     padding: 10px;
     border-collapse: collapse;
@@ -35,7 +35,7 @@ table,td{
 }
  input, textarea, select{
 
-    border-radius: 10px;
+    
     border: 1px dotted blue;
     outline: none;  
 }
