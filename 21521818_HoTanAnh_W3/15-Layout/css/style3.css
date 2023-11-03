@@ -32,29 +32,19 @@
 }
 .menu ul{
     padding: 15px;
-    
-    
-    
-    
+    list-style: none; 
+    color: #fff !important;
+    font-weight: bold;
 }
 .menu ul li{
     margin-bottom: 15px;
     margin-top: 5px;
-   z-index: 100;
-    border-radius: 15px;
+    
+
+    background-color: transparent;
+    
 }
-li:before {
-    content: '';
-    position: absolute;
-    left: -10px;
-    top: 50%; /* Điều chỉnh vị trí để nằm chính giữa thẻ li */
-    transform: translateY(-50%);
-    width: 100px; /* Chiều rộng của boder (hoặc nếu bạn muốn là dấu chấm) */
-    height: 100%;
-    border-left: 1px solid #b80e0e; /* Màu sắc và kiểu của boder */
-    background-color: #ffffff;
-    margin-bottom: 15px;
-  }
+
 .content_full{
     float: right;
     width: 82.5%;
