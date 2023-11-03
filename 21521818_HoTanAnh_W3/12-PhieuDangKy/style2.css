@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.float-right{
+    float: right;
+    font-weight: bold;
+    color: blue;
+}
+h1{
+    color: blue;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+table{
+    background-image: url(./images/khuyen-mai.png);
+    background-position: bottom;
+    background-size: 80% 320px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-color: #CCFFFF;
+}
+table td{
+  
+    padding: 10px;
+}
+ input, textarea, select{
+    background-color: #9cdaef;
+    border-radius: 10px;
+    border: 1px dotted blue;
+    outline: none;  
+}
+.btn{
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+}
+.success{
+    color: rgb(241, 124, 144);
+}
+
+  

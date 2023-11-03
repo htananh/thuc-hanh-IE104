@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.float-right{
+    float: right;
+}
+h1{
+    color: blue;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    margin-top: 20px;
+    background-color: #CCFFFF;
+}
+table,td{
+    border: 2px solid blue;
+    padding: 10px;
+    border-collapse: collapse;
+}
+option, input, textarea, select{
+    background-color: #9cdaef;
+}
+
+  

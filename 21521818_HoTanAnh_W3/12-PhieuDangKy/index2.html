@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+  
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
+  
+          <table>
+            <div class="form-group">
+
+                <tr>
+                    <td class="float-right" >Họ tên:</td>
+                    <td> <input type="text"></td>
+                </tr>
+            </div>
+            <tr>
+                <td class="float-right">Địa chỉ:</td>
+                <td> <textarea name="" id="" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td class="float-right">Điện thoại:</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td class="float-right">Giới tính:</td>
+                <td>  <input type="radio" name="gender">Nam
+                    <input type="radio" name="gender">Nữ</td>
+            </tr>
+            <tr>
+                <td class="float-right">Nghề Nghiệp:</td>
+                <td> <select id="occupation" name="occupation">
+                    <option value="teacher">Giáo viên</option>
+                    <option value="office worker">Nhân viên văn phòng</option>
+                    <option value="student">Sinh viên</option>
+                    <option value="other">Khác</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td class="float-right">Sản phẩm tham gia:</td>
+                <td> <select style="width: 150px;" multiple="multiple"  id="product" name="product">
+                    <option value="toothpaste">Kem đánh răng</option>
+                    <option value="detergent">Bột giặt</option>
+                    <option value="shampoo">Dầu gội đầu</option>
+                    <option value="body wash">Sữa tắm</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td class="float-right">Số người dự đoán tham gia:</td>
+                <td> <input type="number" id="number" name="number"></td>
+            </tr>
+            <tr>
+                <td  colspan="2" style="text-align: center;"> <button class="btn">Đồng ý</button></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"> <h3 class="success">Bạn đã đăng kí thành công!!!</h3></td>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>

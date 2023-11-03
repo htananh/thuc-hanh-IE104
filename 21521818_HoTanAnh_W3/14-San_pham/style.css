@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    margin:20px;
+}
+.header{
+    text-align: center;
+}
+.sanpham{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+.sub_sanpham{
+    grid-column: span 1 / span 1;
+}
