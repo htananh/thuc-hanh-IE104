@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 20px;
+    margin: 0 50px;
+}
+.col-span-1{
+    grid-column: span 1 / span 1;
+}
+.w-300{
+    width: 300px;
+}
+.w-100{
+    width: 100px;
+}
+.flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+.col_second{
+    margin-left: 100px;
+}
+.flex button {
+    margin-left: 10px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 5PX;
+}
+.relative button{
+    position: absolute;
+    right: 48%;
+    bottom: 6px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(42, 42, 211);
+    color: white;
+}
+input{
+    padding: 10px 20px;
+}
