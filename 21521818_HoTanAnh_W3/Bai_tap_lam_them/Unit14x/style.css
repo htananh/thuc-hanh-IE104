@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    margin:20px;
+    width: 1150px;
+    margin: auto;
+}
+p{
+    line-height: 1.6;
+}
+.header{
+    text-align: center;
+   
+}
+.header h1{
+    margin: 10px 0;
+}
+
+.sanpham{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 30px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.author{
+    padding: 10px 0;
+}
+.sub_sanpham{
+    grid-column: span 1 / span 1;
+}
+.sub_sanpham h1{
+    font-size: 27px;
+}
+.btn{
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: white;
+}

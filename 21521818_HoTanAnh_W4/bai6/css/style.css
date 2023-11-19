@@ -1,0 +1,68 @@
+.container {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangle {
+    width: 100%;
+    height: 100%;
+    background-color: #FFCCFF;
+    position: absolute;
+    z-index: -1;
+}
+
+.diagonal-split::before {
+    content: '';
+ 
+    border-style: solid;
+    border-width: 0 0 450px 450px; 
+    border-color:   transparent #99FFCC; 
+    position: absolute;
+
+    z-index: -1;
+}
+.input i {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    left: 20px;
+    
+}
+input{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 250px;
+    border: none;
+}
+input::placeholder{
+    padding-left: 25px;
+}
+.btn_login{
+    margin-top: 10px;
+    width: 250px;
+    margin-left: 15px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.forgot_signUp{
+    display: flex;
+    justify-content: space-around;
+   
+    width: 250px;
+}
+.sign_up{
+    border: none;
+    background-color: #99FFCC;
+    cursor: pointer;
+    padding: 0 10px;
+}
+

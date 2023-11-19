@@ -1,0 +1,42 @@
+input{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: #3c3c3c;
+    color: white;
+}
+.container{
+    background-color: #000;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    
+}
+
+.input i{
+    position: relative;
+    left: -20px;
+    font-size: 10px;
+}
+.input_content{
+    display: grid;
+    grid-template-columns: repeat(3 , minmax(0,1fr));
+}
+.left{
+    grid-column: span 2 / span 2;
+}
+.right{
+    grid-column: span 1 / span 1;
+   background-color: red;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 6px;
+}
+.pass{
+    cursor: pointer;
+}

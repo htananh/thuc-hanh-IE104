@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    height: 300px; /* Để nội dung căn giữa theo chiều dọc */
+    width: 700px;
+    background-color: rgb(229, 232, 233);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+i{
+    font-size: 25px;
+    color: palevioletred;
+}
+input{
+    width: 280px;
+    border: none;
+    height: 35px;
+}
+button{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+}

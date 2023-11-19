@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+   width: 700px;
+    
+}
+p{
+    opacity: 0.6;
+   
+}
+p.tho{
+    margin-left: 20px;
+}
+button{
+    background-color: rgb(92, 181, 245);
+    padding: 5px;
+    width: 150px;
+    color: aliceblue;
+    border: none;
+}

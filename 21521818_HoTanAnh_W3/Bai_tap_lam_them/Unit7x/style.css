@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.container img{
+    margin-top: -200px;
+    object-fit: contain;
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+p{  
+    opacity: 0.8;
+}

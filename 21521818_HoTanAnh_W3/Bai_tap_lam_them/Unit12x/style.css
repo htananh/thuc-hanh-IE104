@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0 50px;
+}
+.footer{
+    background-color: rgb(79, 190, 153);
+    color: #fff;
+    /* display: grid;
+   grid-template-columns: repeat(3,0.5fr); */
+   /* padding: 0 40px; */
+  
+}
+li{
+    margin-left: 20px;
+}
+.title{
+    padding-bottom: 20px;
+}
+.content{
+    /* margin-right: 30px; */
+    margin: 30px;
+}
+.content_1{
+    width: 305px;
+}
+.fa_icon{
+    margin-left: 20px;
+}   
+.fa-google-plus-square{
+   color: red;
+}
+.fa-facebook-square,
+.fa-linkedin{
+    color: rgb(58, 58, 240);
+}
+.fa-twitter-square{
+    color: rgb(40, 37, 37);
+}
+.fab{
+  font-size: 30px;
+    margin-right: 20px;
+}
+.line{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+.banquyen{
+    text-align: center;
+    padding: 30px;
+}

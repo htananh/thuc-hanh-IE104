@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0 2rem;
+    background-color: bisque;
+}
+.container{
+    margin-bottom: 1rem;
+}
+header{
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: blue;
+    background-color: white;
+}
+header h1{
+    padding-bottom: 15px;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 1.5rem;
+    margin-left: 20px;
+}
+.nav{
+    display: flex;
+    background: #009ED8;
+    color: white;
+    padding: 10px 0;
+   position: relative;
+   margin-bottom: 1rem;
+}
+.nav a {
+    position: absolute;
+    right: 1rem;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.section_content{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    
+    
+}
+.left_section_content{
+    
+    grid-column: span 2 / span 2;
+    
+}
+.side-content{
+    
+    grid-column: span 1 / span 1;
+}
+
+.img_content_1{
+    height: 200px;
+    background-color: #ccc;
+}
+.section_content_1{
+    background-color: white;
+    padding:1rem;
+}
+.section_content p{
+    padding: 10px 0;
+}
+.section_content_2 , .section_content_3{
+    background-color: white;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding:1rem;
+}
+.right_section_content_1, .right_section_content_2, .right_section_content_3 , .right_section_content_4{
+    background-color: white;
+    padding:1rem;
+    margin-bottom: 1rem;
+}
+.right_section_content_1 h1{
+    padding-bottom: 10px;
+}
+ .tuyensinh{
+  
+    background-color: rgb(130, 130, 238);
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+.tuyensinh p{
+    border: 2px solid #ccc;
+    padding: 15px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+footer{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+}
+

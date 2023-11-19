@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.box{
+ 
+    width: 400px;
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+    background-color: rgb(243, 246, 247);
+    margin-bottom: 20px;
+    
+}
+.quantity{
+    margin-top: 20px;
+    
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 50%;
+    color: green;
+    font-weight: 600;
+}
+.title{
+    margin-top: 40px;
+}

@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 350px;
+    margin-left: 50px;
+}
+button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(154, 232, 37);
+    color: aliceblue;
+    border: none;
+    padding: 5px;
+}

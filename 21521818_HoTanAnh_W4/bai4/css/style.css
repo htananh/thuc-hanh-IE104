@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    width: 300px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+    
+.header{
+    padding: 10px 0;
+    background-color: rgb(122, 122, 244);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+label{
+    margin-top: 20px;
+}
+input,select{
+    width: 100%;
+   
+   
+}
+.input_section{
+    padding: 7px 10px;
+  
+}
+.btn{
+    margin-top: 10px;
+   margin-left: 80px;
+   padding: 10px 30px;
+   background-color: rgb(152, 152, 249);
+   color: white;
+   border-radius: 5px;
+   text-align: center;
+}
+#ketqua{
+    text-align: center;
+}
+#ketqua h3{
+    color: red;
+}

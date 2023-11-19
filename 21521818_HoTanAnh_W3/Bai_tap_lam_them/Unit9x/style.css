@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 300px;
+}
+.container{
+    display: flex; 
+    margin-left: 20px;
+    margin-top: 20px;
+    word-spacing: 1.5px;
+    
+
+}
+.content{
+    width: 620px;
+    margin-left: 100px;
+}
+.title{
+    color: blue;
+}
+.course{
+    font-weight: bold;
+}
+.btn{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
