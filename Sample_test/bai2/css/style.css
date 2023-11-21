@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: blue;
+    gap: 1rem;
+    padding: 1rem;
+    width: 300px;
+    font-size: 2rem;
+}
